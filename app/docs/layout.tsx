@@ -137,7 +137,7 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
               Back to Home
             </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/pipelinktech/pipelink-sdk"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-3 py-2 text-sm text-foreground/60 hover:text-foreground transition-colors rounded-lg hover:bg-muted/50"

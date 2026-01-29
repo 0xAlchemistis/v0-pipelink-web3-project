@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <a href="/docs" className="text-sm hover:text-secondary transition-colors">Documentation</a>
             <a href="/app" className="text-sm hover:text-secondary transition-colors">App</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-secondary transition-colors">
+            <a href="https://github.com/pipelinktech/pipelink-sdk" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-secondary transition-colors">
               GitHub
             </a>
           </div>
@@ -208,8 +208,8 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-4">Community</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">GitHub</a></li>
-                <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">X/Twitter</a></li>
+                <li><a href="https://github.com/pipelinktech/pipelink-sdk" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">GitHub</a></li>
+                <li><a href="https://x.com/PipelinkTech" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">X/Twitter</a></li>
               </ul>
             </div>
             <div>
