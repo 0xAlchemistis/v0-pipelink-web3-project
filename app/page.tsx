@@ -10,7 +10,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
 
   const handleCopyAddress = () => {
-    navigator.clipboard.writeText('xxxxxxxxxxxxxxxxxxx');
+    navigator.clipboard.writeText('DZRJ5tk6G3MVEynkS5EV6fe4uNBVYKEAovdVwNFHpump');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -81,7 +81,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-8 text-center">Contract Address</h2>
           <div className="bg-card border border-border rounded-lg p-4 flex items-center justify-between">
             <code className="text-secondary font-mono text-sm sm:text-base overflow-x-auto">
-              xxxxxxxxxxxxxxxxxxx
+              DZRJ5tk6G3MVEynkS5EV6fe4uNBVYKEAovdVwNFHpump
             </code>
             <button
               onClick={handleCopyAddress}
