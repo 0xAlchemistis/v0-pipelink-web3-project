@@ -33,7 +33,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <a href="/docs" className="text-sm hover:text-secondary transition-colors">Documentation</a>
             <a href="/app" className="text-sm hover:text-secondary transition-colors">App</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-secondary transition-colors">
+            <a href="https://github.com/pipelinktech/pipelink-sdk" target="_blank" rel="noopener noreferrer" className="text-sm hover:text-secondary transition-colors">
               GitHub
             </a>
           </div>
